@@ -27,11 +27,11 @@ def main():
 
     video_path = os.path.join(video_folder, video_files[0])
 
-    # Obtener el nombre del archivo de video sin la extensión
+    # Get the video file name without the extension
     video_filename = os.path.basename(video_path)
     video_name_without_extension = os.path.splitext(video_filename)[0]
 
-    # Crear la ruta de salida basada en el nombre del video
+    # Create the output path based on the video name
     output_directory = os.path.join("output", video_name_without_extension)
     os.makedirs(output_directory, exist_ok=True)
 
