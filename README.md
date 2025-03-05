@@ -87,19 +87,6 @@ Performance Optimization: Optimize the code for faster processing, especially fo
 Conclusion
 This project successfully implements a basic motion detection system for sports videos. It meets the requirements by processing video frames, detecting motion, and visualizing the results with team-specific bounding boxes. The code is well-organized, documented, and ready for further enhancements.
 
-Repository Structure
-Copy
-.
-├── videos/                   # Folder containing input video files
-├── output/                   # Folder containing processed results
-│   └── <video_name>/         # Subfolder for each video's output
-│       ├── frames/           # Individual frames with motion detection
-│       └── motion_detection.mp4  # Output video with motion detection
-├── frame_processor.py        # Script for extracting frames from video
-├── motion_detector.py        # Script for detecting motion and classifying teams
-├── visualizer.py             # Script for visualizing and saving results
-├── main.py                   # Main script to run the pipeline
-└── README.md                 # This file
-Submission
+
 GitHub Repository: https://github.com/facurogala/Opencv-football
 
